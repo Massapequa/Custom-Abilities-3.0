@@ -10,7 +10,7 @@ Be aware that all of these abilities are being tested on ServUO-57.1 At the time
 <summary> <b>Implementation changes:</b> </summary>
 	AbilityCreature and AbilityMount have been added as extensions to the BaseCreature class.<br>
 	This allows everyone to more easily add CustomAbilities to your creatures.<br>
-	You no longer need to mess with teh OnThink() method in order to make the abilities work.<br>
+	You no longer need to mess with the OnThink() method in order to make the abilities work.<br>
   <br>
 	WARNING: remove all current instances of your spawned creatures before changing them from BaseCreature to AbilityCreatures.
 </details>
